@@ -1,0 +1,90 @@
+/* FLORALWHITE #FFFAF0
+ IVORY #FFFFF0
+LIGHTGREY #D3D3D3
+SEASHELL #FFF5EE
+DARKSLATEGRAY #2F4F4F
+BEIGE #F5F5DC
+TAN #D2B48C
+*/
+
+body {
+    background-color: #F5F5DC;
+}
+
+#header-top {
+    height: 200px;
+    width: 100%;
+}
+
+#footer-last {
+    height: 200px;
+    
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* PROFILE */
+
+#profile-image {
+    float: left;
+    width: 33%;
+    padding-bottom
+}
+
+#profile-details {
+    float: right;
+    width: 67%;
+}
+/* WORK EXPERIENCE */
+
+#work-experience {
+    background-color: #2F4F4F;
+}
+
+.work-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.work-aside {
+    float:left;
+    width: 33%;
+}
+
+.work-article {
+    float: right;
+    width: 67%;
+}
+
+.work-footer {
+    
+}
+
+/* EDUCATION */
+
+#education {
+    text-align: center;
+}
+
+.school-aside {
+    float: left;
+    width: 33%;
+}
+.school-article {
+    float: right;
+    width: 67%;
+}
+
+.school-container {
+    padding: 20px;
+    text-align: center;
+    width:100%;
+}
+
+.education-header {
+    padding-top: 50px;
+}
