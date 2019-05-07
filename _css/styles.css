@@ -7,18 +7,35 @@ BEIGE #F5F5DC
 TAN #D2B48C
 */
 
+/* GLOBAL */
 body {
-    background-color: #F5F5DC;
+    background-color: #FFFAF0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0 auto
 }
 
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
 #header-top {
-    height: 200px;
-    width: 100%;
+    background-color: #FFFFF0;
+    #FFFFF0;
+    height: 220px;
 }
 
 #footer-last {
     height: 200px;
-    
+    background-color: #2F4F4F;
 }
 
 header, footer {
@@ -26,63 +43,49 @@ header, footer {
     padding: 20px;
 }
 
+/* BASICS */
+.basic-footer {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.basic-aside {
+    float:left;
+    width: 33%;
+}
+
+.basic-article {
+    float: right;
+    text-align: center;
+    width: 67%;
+}
+
+.basic-cotainer {
+    padding: 20px;
+    text-align: center;
+}
 /* PROFILE */
 
 #profile-image {
     float: left;
     width: 33%;
-    padding-bottom
 }
 
 #profile-details {
     float: right;
-    width: 67%;
+    width: 33%;
 }
 /* WORK EXPERIENCE */
 
 #work-experience {
-    background-color: #2F4F4F;
-}
-
-.work-container {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
-
-.work-aside {
-    float:left;
-    width: 33%;
-}
-
-.work-article {
-    float: right;
-    width: 67%;
-}
-
-.work-footer {
-    
+    background-color: #FFFAF0;
 }
 
 /* EDUCATION */
 
 #education {
     text-align: center;
-}
-
-.school-aside {
-    float: left;
-    width: 33%;
-}
-.school-article {
-    float: right;
-    width: 67%;
-}
-
-.school-container {
-    padding: 20px;
-    text-align: center;
-    width:100%;
+    background-color: #FFF5EE;
 }
 
 .education-header {
