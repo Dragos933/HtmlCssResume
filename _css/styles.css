@@ -12,7 +12,7 @@ body {
     background-color: #FFFAF0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 h1, h2{
@@ -27,9 +27,12 @@ h1 {
 h2 {
     font-size: 50px;
 }
+
+ul {
+    list-style-type: none;
+}
 #header-top {
     background-color: #FFFFF0;
-    #FFFFF0;
     height: 220px;
 }
 
@@ -49,45 +52,61 @@ header, footer {
     margin-top: 30px;
 }
 
+.basic-wrapper {
+    margin: 0 auto;
+    width: 1500px;
+}
+
 .basic-aside {
     float:left;
-    width: 33%;
+    text-align: right;
+    width: 30%;
 }
 
 .basic-article {
     float: right;
-    text-align: center;
-    width: 67%;
+    width: 45%;
 }
 
 .basic-cotainer {
     padding: 20px;
     text-align: center;
+    overflow: hidden;
+}
+
+.basic-title {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.basic-thoughts {
+    float: right;
+    width: 25%;
 }
 /* PROFILE */
 
 #profile-image {
-    float: left;
-    width: 33%;
+    float: right;
+    width: 300px;
 }
 
 #profile-details {
     float: right;
-    width: 33%;
+    width: 700px;
 }
+
+
 /* WORK EXPERIENCE */
 
-#work-experience {
+.work-experience {
     background-color: #FFFAF0;
 }
+
 
 /* EDUCATION */
 
 #education {
     text-align: center;
     background-color: #FFF5EE;
-}
-
-.education-header {
-    padding-top: 50px;
 }
