@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header id="header-top">
+    <header id="header-top" role="banner">
         <div id="profile-details">
             <h1>Cornean Dragos</h1>
             <h2>Student at UBB</h2>
@@ -20,18 +20,32 @@
         </div>
         <img src="_resources/_images/Webp.net-resizeimage.jpg" alt="Your Name" id="profile-image">
     </header>
-    <main>
-        <section class="basic-wrapper work-experience">
+    <main role="main">
+        <section role="article" class="basic-wrapper work-experience">
+
+            <!-- WORK EXPERIENCE-->
+
             <header class="basic-title">
                 <h2>Work Experience</h2>
             </header>
+
+            <!-- INTERNSHIP -->
+
             <div class="basic-cotainer">
                 <h3>Internship</h3>
                 <aside class="basic-aside">
-                    <strong><p>Job Title:<p></strong>
-                    <strong><p>Company Name:</p></strong>
-                    <strong><p>Date at job:</p></strong>
-                    <strong><p>Job Summary:</p></strong>
+                    <strong>
+                        <p>Job Title:<p>
+                    </strong>
+                    <strong>
+                        <p>Company Name:</p>
+                    </strong>
+                    <strong>
+                        <p>Date at job:</p>
+                    </strong>
+                    <strong>
+                        <p>Job Summary:</p>
+                    </strong>
                 </aside>
                 <div class="basic-thoughts">
                     <h4>My thoughts</h4>
@@ -39,29 +53,32 @@
                 </div>
                 <article class="basic-article">
                     <p>IT Intern<p>
-                    <p>Tvarita SRL</p>
-                    <p>16.10.2018 - 16.01.2019</p>
-                    <p>I worked with the Qt platform and implemented<br> various projects that provided:
-                        <ul>
-                            <li>- Graphical User Interface</li>
-                            <li>- Network accessability</li>
-                            <li>- Data storage</li>
-                        </ul>
-                        I also had the oportunity to meet and to work<br> with a team of talented people that guided me<br> through the process of implementing a large<br> scale project.
-                    </p>
-                    <p><strong>My contribution:</strong></p>
-                    <ul>
-                        <li>- Working closely with designers and<br> engineers.</li>
-                        <li>- Reviewing current systems, presenting<br> ideas for system improvements</li>
-                        <li>- Testing the product in controlled, real<br> situations</li>
-                    </ul>
+                            <p>Tvarita SRL</p>
+                            <p>16.10.2018 - 16.01.2019</p>
+                            <p>I worked with the Qt platform and implemented<br> various projects that provided:
+                                <ul>
+                                    <li>- Graphical User Interface</li>
+                                    <li>- Network accessability</li>
+                                    <li>- Data storage</li>
+                                </ul>
+                                I also had the oportunity to meet and to work<br> with a team of talented people that guided me<br> through the process of implementing a large<br> scale project.
+                            </p>
+                            <p><strong>My contribution:</strong></p>
+                            <ul>
+                                <li>- Working closely with designers and<br> engineers.</li>
+                                <li>- Reviewing current systems, presenting<br> ideas for system improvements</li>
+                                <li>- Testing the product in controlled, real<br> situations</li>
+                            </ul>
                 </article>
             </div>
         </section>
-        <section class="basic-wrapper" id="education">
+        <section role="article" class="basic-wrapper" id="education">
             <header class="basic-title">
                 <h2>Education</h2>
             </header>
+
+            <!-- HIGH-SCHOOL -->
+
             <div class="basic-cotainer education-notLast">
                 <h3>High-school</h3>
                 <aside class="aside-noThoughts">
@@ -102,6 +119,9 @@
                     </ul>
                 </article>
             </div>
+
+            <!-- UNIVERSITY -->
+
             <div class="basic-cotainer education-notLast">
                 <h3>University</h3>
                 <aside class="aside-noThoughts">
@@ -119,6 +139,9 @@
                     <p>Computer Science in English</p>
                 </article>
             </div>
+
+            <!-- ACADEMY++-->
+
             <div class="basic-cotainer">
                 <h3>Academy+Plus</h3>
                 <aside class="basic-aside">
@@ -141,10 +164,16 @@
                 </article>
             </div>
         </section>
-        <section class="basic-wrapper others">
+
+        <!-- OTHERS -->
+
+        <section role="article" class="basic-wrapper others">
             <header class="basic-title">
                 <h2>Others</h2>
             </header>
+
+            <!-- INTERACT -->
+
             <h3>Interact</h3>
             <div class="basic-cotainer">
                 <aside class="aside-noThoughts">
@@ -170,7 +199,8 @@
             </div>
         </section>
     </main>
-    <footer id="footer-last">
+    <!-- KEEP IN TOUCH -->
+    <footer id="footer-last" role="contentinfo">
         <h2>Let's keep in Touch!</h2>
         <a href="#header-top"><img class="basic-icon" alt="Facebook icon" src="_resources/_images/facebook_icon.png"></a>
         <a href="#header-top"><img class="basic-icon" alt="Instagram icon" src="_resources/_images/instagram_icon.png"></a>
