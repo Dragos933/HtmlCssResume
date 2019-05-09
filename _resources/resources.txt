@@ -1,3 +1,7 @@
+ICONS
+https://www.freepik.com/free-icon/linkedin-logo-button_769278.htm
+
+COLOURS
 http://colours.neilorangepeel.com/
 DARKCYAN #008B8B
 OLIVE #808000
@@ -8,3 +12,6 @@ DARKSEAGREEN #8FBC8F
 SEAGREEN #3CB371
 TEAL #008080
 LIGHTSEAGREEN #20B2AA
+
+FONTS
+google.fonts
