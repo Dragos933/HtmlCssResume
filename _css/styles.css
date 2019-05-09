@@ -1,0 +1,171 @@
+/* FLORALWHITE #FFFAF0
+ IVORY #FFFFF0
+LIGHTGREY #D3D3D3
+SEASHELL #FFF5EE
+DARKSLATEGRAY #2F4F4F
+BEIGE #F5F5DC
+TAN #D2B48C
+*/
+
+/* GLOBAL */
+body {
+    background-color: #FFFFF0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+h1,
+h2{
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* HEADER */
+
+#header-top {
+    background-color: #FFFFF0;
+    height: 280px;
+}
+
+/* FOOTER */
+
+#footer-last {
+    background-color: #2F4F4F;
+}
+
+#footer-last img {
+    transform: scale(1);
+    transition: transform 0.4s;
+}
+
+#footer-last img:hover {
+    transform: scale(1.4);
+}
+
+
+/* BASICS */
+.basic-footer {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.basic-wrapper {
+    margin: 0 auto;
+    width: 1500px;
+    padding-top: 20px;
+}
+
+.basic-aside {
+    float: left;
+    text-align: right;
+    width: 28%;
+}
+
+.basic-article {
+    float: right;
+    width: 40%;
+    text-align: left;
+}
+
+.basic-cotainer {
+    padding: 20px;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.basic-title {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    padding-left: 250px;
+}
+
+.basic-thoughts {
+    float: right;
+    text-align: left;
+    width: 25%;
+    font-family: 'Fira Sans', sans-serif;
+    padding-right: 30px;
+}
+
+.basic-icon {
+    width: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.aside-noThoughts {
+    width: 46%;
+    float: left;
+    text-align: right;
+}
+
+.article-noThoughts {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+/* PROFILE */
+
+#profile-image {
+    float: right;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+#profile-details {
+    float: right;
+    width: 500px;
+    padding-right: 50px;
+}
+
+
+/* WORK EXPERIENCE */
+
+.work-experience {
+    background-color: #FFFAF0;
+}
+
+/* EDUCATION */
+
+#education {
+    text-align: center;
+    background-color: #FFF5EE;
+}
+
+.education-notLast {
+    border-bottom: 10px solid #FFFFF0;
+}
+
+/* OTHERS */
+.others {
+    background-color: #FFFACD
+
+}
